@@ -155,7 +155,7 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .nav-link:hover { /* Style for the navigation links */

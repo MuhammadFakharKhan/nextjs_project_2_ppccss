@@ -6,7 +6,8 @@ import type { ReactNode } from "react";
 import Image from "next/image";
 
 const font = Poppins({
-  weight: [ "600", "700"]
+  weight: [ "600", "700"],
+  subsets:['latin']
 });
 
 export const metadata: Metadata = {

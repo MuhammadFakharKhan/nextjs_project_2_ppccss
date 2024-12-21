@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import 'animate.css'; // If you're still using animate.css, keep this import
-import '../app/globals.css'; // Import the CSS file
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import "animate.css"; // If you"re still using animate.css, keep this import
+import "../app/globals.css"; // Import the CSS file
 
 const HomePage = () => {
   return (
@@ -23,7 +23,7 @@ const HomePage = () => {
       className="about-image" 
     /> 
     <p className="about-text"> 
-      Hi, My name is Muhammad Fakhar Khan. I'm a passionate developer and graphic designer with a knack for creating seamless user experiences and robust web applications. Learn more about my journey and interests on the About Me page. 
+      Hi, My name is Muhammad Fakhar Khan.I&apos;m a passionate developerd graphic designer with a knack for creating seamles UI  experiences and robust web applications. Learn more about my journey and interests on the About Me page. 
     </p> 
   </div>
   <Link href="/about">
@@ -34,7 +34,7 @@ const HomePage = () => {
 </section>
 
       <section className="skills">
-        <h2 className='my-skills'>My Skills</h2>
+        <h2 className="my-skills">My Skills</h2>
         <div className="skills-container">
           <div className="skill-bar-container">
             <label className="html-label">HTML</label>
@@ -94,7 +94,7 @@ const HomePage = () => {
     <div className="project-card">
       <a href="https://hackathon-project-5.vercel.app/">
         <Image
-     src={"/images/coding (1).png"}
+     src="/images/coding (1).png"
       alt="Project One"
        className="project-image"
         width="300"
@@ -106,7 +106,7 @@ const HomePage = () => {
     <div className="project-card">
       <a href="/path/to/project-two">
         <Image
-       src={ "/images/nextjs-img.png"}
+       src="/images/nextjs-img.png"
          alt="Project Two"
          className="project-image"
          width="300"
@@ -119,7 +119,7 @@ const HomePage = () => {
     <div className="project-card">
       <a href="https://drive.google.com/file/d/1IE3F8eq-mxt0v3uT3grPqtoKra5jF9-C/view?usp=sharing&usp=embed_facebook">
         <Image
-        src={"/images/adobe ai photo.png"}
+        src="/images/adobe ai photo.png"
          alt="Project Three" className="project-image" width="300" height="300" />
         <h3 className="project-title">GRAPHIC DESIGNING PROJECT</h3>
         <p className="project-description">My graphic design portfolio.</p>
@@ -136,10 +136,10 @@ const HomePage = () => {
   
 </section>
 
-      <section className="contact">  {/* New class name 'contact' */}
+      <section className="contact">  {/* New class name "contact" */}
   <h2>Contact Me</h2>
   <p>Feel free to reach out to me via the following contact information:</p>
-  <div className="contact-info">  {/* New class name 'contact-info' for the inner container */}
+  <div className="contact-info">  {/* New class name "contact-info" for the inner container */}
     <p><strong>Email:</strong> fk8201610@gmail.com</p>
     <p><strong>Phone:</strong> +923353610778</p>
     <p><strong>LinkedIn:</strong> 

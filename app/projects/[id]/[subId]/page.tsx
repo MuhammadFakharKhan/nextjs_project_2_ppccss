@@ -1,24 +1,23 @@
 "use client";
 
-import { url } from 'inspector';
-import { useParams } from 'next/navigation';
+import { useParams } from "next/navigation";
 
 const projects = [
   {
-    id: 'project-one',
-    title: 'Project One',
+    id: "project-one",
+    title: "Project One",
     subprojects: [
       {
-        id: 'html-project-1',
-        title: 'HTML Project 1',
-        description: 'Description for HTML Project 1.',
-        url: 'https://hackathon-project-4-c6ng.vercel.app/'
+        id: "html-project-1",
+        title: "HTML Project 1",
+        description: "Description for HTML Project 1.",
+        url: "https://hackathon-project-4-c6ng.vercel.app/"
       },
       {
-        id: 'html-project-2',
-        title: 'HTML Project 2',
-        description: 'Description for HTML Project 2.',
-        url: 'https://hackathon-project-4-c6ng.vercel.app/'
+        id: "html-project-2",
+        title: "HTML Project 2",
+        description: "Description for HTML Project 2.",
+        url: "https://hackathon-project-4-c6ng.vercel.app/"
       },
     ]
   },

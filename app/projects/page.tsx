@@ -1,28 +1,28 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 function Projects() {
   const projects = [
     {
-      id: 'project-one',
-      title: 'HTML & CSS PROJECTS',
-      description: 'This is a brief description of Project One. It includes details about the technologies used and the problem it solves.',
-      image: '/images/coding (1).png',
+      id: "project-one",
+      title: "HTML & CSS PROJECTS",
+      description: "This is a brief description of Project One. It includes details about the technologies used and the problem it solves.",
+      image:"/images/coding (1).png",
       subprojects: []
     },
     {
-      id: 'project-two',
-      title: 'NextJs Projects',
-      description: 'This is a brief description of Project Two. It includes details about the technologies used and the problem it solves.',
-      image: '/images/nextjs-img.png',
+      id: "project-two",
+      title: "NextJs Projects",
+      description: "This is a brief description of Project Two. It includes details about the technologies used and the problem it solves.",
+      image: "/images/nextjs-img.png",
       subprojects: []
     },
     {
-      id: 'project-three',
-      title: 'Typescript Projects',
-      description: 'This is a brief description of Project Three. It includes details about the technologies used and the problem it solves.',
-      image: '/images/typescript.png',
+      id: "project-three",
+      title: "Typescript Projects",
+      description: "This is a brief description of Project Three. It includes details about the technologies used and the problem it solves.",
+      image: "/images/typescript.png",
       subprojects: []
     },
     // Add more projects as needed

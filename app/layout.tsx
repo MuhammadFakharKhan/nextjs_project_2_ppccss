@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+// import { Poppins } from "next/font/google";
 import Link from "next/link";
 import "../app/globals.css"; // Import your CSS file (create styles.css)
 import type { ReactNode } from "react";
 import Image from "next/image";
 
-const font = Poppins({
-  weight: [ "600", "700"],
-  subsets:['latin']
-});
+
 
 export const metadata: Metadata = {
   title: "M.FK Portfolio",

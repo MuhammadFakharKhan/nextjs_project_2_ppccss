@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
-import emailjs from 'emailjs-com';
+import React, { useEffect, useState } from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
   const [isClient, setIsClient] = useState(false);
@@ -15,7 +15,7 @@ function Contact() {
 
     const form = e.target as HTMLFormElement;
 
-    emailjs.sendForm('service_8k911lh', 'template_2ppq2rl', form, '4XWwEJ6KI5Rmy3bq7')
+    emailjs.sendForm("service_8k911lh", "template_2ppq2rl", form, "4XWwEJ6KI5Rmy3bq7")
       .then((result) => {
           console.log(result.text);
           alert("Message sent successfully!");

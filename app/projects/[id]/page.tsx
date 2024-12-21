@@ -131,10 +131,10 @@ const ProjectPage = () => {
                 <h3 className="subproject-title">{subproject.title}</h3>
                 <p className="subproject-description">{subproject.description}</p>
                 {subproject.url && (
-                  <Link href={subproject.url} passHref>
-                    <a target="_blank" rel="noopener noreferrer" className="subproject-link">
+                  <Link href={subproject.url} passHref
+                     target="_blank" rel="noopener noreferrer" className="subproject-link">
                       Visit Project
-                    </a>
+                    
                   </Link>
                 )}
               </div>

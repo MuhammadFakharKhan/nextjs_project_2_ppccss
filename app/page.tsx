@@ -93,21 +93,34 @@ const HomePage = () => {
   <div className="project-grid">
     <div className="project-card">
       <a href="https://hackathon-project-5.vercel.app/">
-        <img src="/images/coding (1).png" alt="Project One" className="project-image" width="300" height="200" />
+        <Image
+     src={"/images/coding (1).png"}
+      alt="Project One"
+       className="project-image"
+        width="300"
+         height="200" />
         <h3 className="project-title">HTML & CSS PROJECT</h3>
         <p className="project-description">Generate a unique URL for each resume based on the user’s username, and allow the resume to be shared and downloaded.</p>
       </a>
     </div>
     <div className="project-card">
       <a href="/path/to/project-two">
-        <img src="/images/nextjs-img.png" alt="Project Two" className="project-image" width="300" height="200" />
+        <Image
+       src={ "/images/nextjs-img.png"}
+         alt="Project Two"
+         className="project-image"
+         width="300"
+         height="200"
+          />
         <h3 className="project-title">NEXTJS PROJECT</h3>
         <p className="project-description">This is a brief description of Project Two.</p>
       </a>
     </div>
     <div className="project-card">
       <a href="https://drive.google.com/file/d/1IE3F8eq-mxt0v3uT3grPqtoKra5jF9-C/view?usp=sharing&usp=embed_facebook">
-        <img src="/images/adobe ai photo.png" alt="Project Three" className="project-image" width="300" height="300" />
+        <Image
+        src={"/images/adobe ai photo.png"}
+         alt="Project Three" className="project-image" width="300" height="300" />
         <h3 className="project-title">GRAPHIC DESIGNING PROJECT</h3>
         <p className="project-description">My graphic design portfolio.</p>
       </a>

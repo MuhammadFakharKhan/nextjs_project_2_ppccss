@@ -41,3 +41,4 @@ const SubprojectPage = () => {
     </div>
   );
 }
+export default SubprojectPage;
